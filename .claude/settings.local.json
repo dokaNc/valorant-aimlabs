@@ -3,7 +3,14 @@
     "allow": [
       "mcp__claude-context__get_indexing_status",
       "mcp__claude-context__index_codebase",
-      "mcp__claude-context__clear_index"
+      "mcp__claude-context__clear_index",
+      "WebSearch",
+      "WebFetch(domain:www.kovaak.com)",
+      "WebFetch(domain:www.mouse-sensitivity.com)",
+      "WebFetch(domain:clickhz.com)",
+      "WebFetch(domain:discussions.unity.com)",
+      "WebFetch(domain:www.oreateai.com)",
+      "Bash(git -C \"C:\\\\Users\\\\dokan\\\\Desktop\\\\Coding\\\\valorant-aimlabs\" log -1 --format=%ci)"
     ]
   }
 }
